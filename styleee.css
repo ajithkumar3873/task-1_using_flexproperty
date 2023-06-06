@@ -1,0 +1,43 @@
+section{
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.coloumn{
+  
+    width: 50%;
+    
+
+}
+
+#img{
+    text-align: center;
+}
+button{
+    height: 65px;
+    width: 200px;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 1em;
+    background-color: yellow;
+   
+}
+#btnposition{
+    position: relative;
+    left: 20px;
+}
+.btn{
+    position: relative;
+   
+}
+
+button:hover{
+    background-color:black;
+    color: white;
+    font-size: 1.2em;
+}   
